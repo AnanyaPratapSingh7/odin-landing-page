@@ -50,9 +50,9 @@ li{
     color: #E5E7EB;
 }
 .box{
-    width: 100px;
-    height: 100px;
-    border: solid 2px blue;
+    width: 200px;
+    height: 200px;
+    border: solid 6px blue;
     border-radius: 10px;
 }
 .image{
@@ -75,4 +75,80 @@ li{
 .signup{
     display: flex;
     justify-content: space-between;
+}
+.random{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    padding: 50px;
+}
+.random h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.card-row{
+    display: flex;
+    gap: 80px;
+}
+.card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.card p{
+    text-align: center;
+    font-size: 22px;
+    color: #1F2937;
+}
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.quote-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quote-credit{
+    font-weight: bold;
+    font-size: 22px;
+}
+.prompt{
+    background-color: #3882F6;
+    width: 70%;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.prompt button{
+    border: solid 2px white;
+    height: max-content;
+}
+.prompt .label{
+    color: white;
+}
+.prompt-heading{
+    font-size: 22px;
+    margin-bottom: -10px;
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
